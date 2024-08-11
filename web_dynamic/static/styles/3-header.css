@@ -3,9 +3,24 @@ header {
     height: 70px;
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 header .logo {
     background: url("../images/logo.png") no-repeat;
-    left: 20px;
     height: 100%;
+    width: 150px;
+}
+
+header #api_status {
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+    border-radius: 50%;
+    background-color: #cccccc;
+}
+
+.available {
+    background-color: #ff545f !important;
 }
